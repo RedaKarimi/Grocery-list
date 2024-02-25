@@ -1,0 +1,20 @@
+/* App.css */
+.custom-row {
+  margin-top: '3%';
+  max-width: "20%" !important;
+}
+
+.custom-col {
+  max-width: "20%" !important;
+}
+
+@media (max-width: 767px) {
+  
+  .custom-row {
+    margin-top: '7%';
+  }
+
+  .custom-col {
+    max-width: "20%";
+  }
+}
